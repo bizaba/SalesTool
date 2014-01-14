@@ -9,6 +9,7 @@ from salesdata import SalesData
 def displayGreeting():
     print("HELLO HAPPY SALES PEOPLE!")
     print("THIS APP SHOWS SALES DATA")
+    print("Test 1")
 
 def main():
     print("Executing main")
