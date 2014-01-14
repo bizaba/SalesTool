@@ -6,6 +6,7 @@ Created on Jan 13, 2014
 
 from salesdata import SalesData
 
+
 def displayGreeting():
     print("Hello Happy Sales People!")
     print("This app shows sales data.")
