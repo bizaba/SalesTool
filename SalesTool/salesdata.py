@@ -4,8 +4,9 @@ class SalesData(object):
         self.data = [0,4,42]
 
     def display(self):
+        print("Data:")
         for n in self.data:
-            print("")
+            print("Next value: ", n)
 
 
 
