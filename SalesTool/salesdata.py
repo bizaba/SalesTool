@@ -8,5 +8,9 @@ class SalesData(object):
         for n in self.data:
             print("Next value: ", n)
 
+    def doubleSales(self):
+        for i in range(len(self.data)):
+            self.data[i] *= 2
+
 
 

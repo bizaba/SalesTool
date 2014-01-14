@@ -11,13 +11,11 @@ def displayGreeting():
     print("This app shows sales data.")
     print("-------------------------")
 
-    print("Test 1")
-    print("Test2")
-
 def main():
-    print("Executing main")
     displayGreeting()
     data = SalesData()
+    data.display()
+    data.doubleSales()
     data.display()
 
 if __name__ == '__main__':
