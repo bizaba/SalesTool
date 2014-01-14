@@ -7,9 +7,12 @@ Created on Jan 13, 2014
 from salesdata import SalesData
 
 def displayGreeting():
-    print("HELLO HAPPY SALES PEOPLE!")
-    print("THIS APP SHOWS SALES DATA")
+    print("Hello Happy Sales People!")
+    print("This app shows sales data.")
+    print("-------------------------")
+
     print("Test 1")
+    print("Test2")
 
 def main():
     print("Executing main")
